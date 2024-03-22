@@ -115,11 +115,17 @@ public class AdmBarra extends Thread {
                 vive = false;
             }
             if(empate){
-                JOptionPane.showMessageDialog(null, "Es un empate.");
+                JOptionPane.showMessageDialog(null, "Es un empate."+"\nTiempo: "+tiempo);
+                barra.setValue(0);
+                barra2.setValue(0);
             }else if(victoria1){
                 JOptionPane.showMessageDialog(null, "El ganador es "+c1.getModelo()+"!"+"\nTiempo: "+tiempo);
+                barra.setValue(0);
+                barra2.setValue(0);
             }else if(victoria2){
                 JOptionPane.showMessageDialog(null, "El ganador es "+c2.getModelo()+"!"+"\nTiempo: "+tiempo);
+                barra.setValue(0);
+                barra2.setValue(0);
             }
             try {
                 Thread.sleep(1000);

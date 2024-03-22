@@ -442,7 +442,7 @@ public class Principal extends javax.swing.JFrame {
             lb_velJug1.setText(velocidad);
             lb_carro1.setText(modelo);
         }else{
-            JOptionPane.showMessageDialog(this, "No ha seleccionado nada!");
+            
         }
     }//GEN-LAST:event_cb_jug1ItemStateChanged
 
@@ -459,7 +459,7 @@ public class Principal extends javax.swing.JFrame {
             lb_velJug2.setText(velocidad);
             lb_carro2.setText(modelo);
         }else{
-            JOptionPane.showMessageDialog(this, "No ha seleccionado nada!");
+            
         }
     }//GEN-LAST:event_cb_jug2ItemStateChanged
 
